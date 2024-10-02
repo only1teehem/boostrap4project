@@ -1,0 +1,237 @@
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+.jumbotron h1{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+.jumbotron p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.banner{
+    background-image: url("/images/bannerimg.jpg");
+    animation-name: myanime;
+    animation-duration: 0.4s;
+
+}
+
+
+.textanime{
+    animation-name: myanime;
+    animation-duration: 2.0s;
+    position: relative;
+
+}
+@keyframes myanime {
+    0% {opacity: 0.1; top: -100px;}
+    100% {opacity: 0.5; top: 0px}
+  }
+
+
+
+
+
+.courses img:hover{
+    opacity: 0.5;
+    transform: rotate(20deg);
+    transition: transform 0.2s, opacity 0.3s;
+}
+
+
+
+
+.iconcontainer{
+    margin: 70px 0px;
+}
+
+
+.iconcontainer i{
+    color: blue;
+    padding: 40px;
+    border: solid 1px;
+    border-radius: 100px;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.iconcontainer i:hover{
+    color: azure;
+    background-color: rgb(0, 34, 224);
+    padding: 40px;
+    border: solid 1px;
+    border-radius: 100px;
+    font-size: 50px;
+}
+
+.cardcontain{
+    margin: 30px;
+}
+
+.testhead {
+padding-top: 5rem;
+padding-bottom: 2rem;
+
+}
+
+.container button:hover {
+    background-color: rgb(100, 100, 227);
+    color: black;
+
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer{
+    background-color: rgb(43, 43, 135);
+    color: #d2d2dc;
+    padding: 8rem 4rem;
+
+}
+.footer a{
+    color: #d2d2dc;
+    background-color: rgb(34, 34, 91);
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer a:hover{
+    color: #d2d2dc;
+    background-color: rgb(16, 16, 220);
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.recent-courses .left{
+    background-color: rgb(34, 34, 91);
+    border-right: 3px solid rgb(65, 90, 188);
+}
+.recent-courses {
+    margin-bottom: 3px;
+
+}
+
+.recent-courses .left:hover{
+    color: #d2d2dc;
+    background-color: rgb(16, 16, 220);
+    border-right: 3px solid rgb(65, 90, 188);
+}
+
+.recent-courses .top{
+  border-bottom: 2px solid;
+
+}
+
+.recent-courses img{
+    max-width: 100px;
+    height: 100px;
+  }
+
+
+.copyright{
+    border-top: 2px solid rgb(79, 75, 100);
+    margin-top: 4rem;
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 5rem
+}
+
+.card {
+   position: relative;
+   display: flex;
+   width: 350px;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 1px solid #d2d2dc;
+   border-radius: 11px;
+   -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+   -moz-box-shadow: 0px 0px 5px 0px rgba(212,182,212,1);
+   box-shadow: 0px 0px 5px 0px rgb(161, 163, 164);
+}
+.lover{
+    margin: 40px 20px;
+}
+
+.card .card-body {
+       padding: 1rem 1rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+p {
+    font-size: 0.875rem;
+    margin-bottom: .5rem;
+    line-height: 1.5rem
+}
+
+h4{
+        line-height: .2 !important;
+}
+.profile{
+          margin-top: 16px;
+   margin-left: 11px;
+}
+
+.profile-pic{
+    width: 58px;
+}
+
+.cust-name{
+    font-size: 18px;
+}
+
+.cust-profession{
+    font-size: 10px;
+}
+
+
+
+.items {
+   width: 90%;
+   margin: 0px auto;
+   margin-top: 100px
+}
+
+.slick-slide {
+   margin: 10px
+}
+
+
+
+
